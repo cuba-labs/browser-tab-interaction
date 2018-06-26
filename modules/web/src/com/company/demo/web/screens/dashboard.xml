@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://caption"
+        class="com.company.demo.web.screens.Dashboard"
+        messagesPack="com.company.demo.web.screens">
+    <dialogMode height="600"
+                width="800"/>
+    <layout>
+        <groupBox caption="Dashboard Content"
+                  height="100%"
+                  spacing="true">
+            <label id="dashboardText"
+                   stylename="h2"
+                   value="Dashboard Text"/>
+        </groupBox>
+    </layout>
+</window>
